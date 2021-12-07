@@ -19,8 +19,9 @@ public class OrderEntity {
     @Column(name = "client_address")
     private String clientAddress;
 
-    @Column(name = "floor")
-    private Integer floor;
+    @Column(name = "client_mail")
+    private String clientMail;
+
 
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_At")
